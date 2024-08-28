@@ -105,3 +105,70 @@ nav ul li a {
 .hero .right img {
     height: 350px;
 }
+
+main {
+    width: 100%;
+    position: relative;
+    margin-top: 150px;
+    background-color: hsl(240, 75%, 98%);
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.illustr {
+    position: absolute;
+    top: -100px;
+    z-index: -1;
+}
+
+.productive {
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+}
+
+.productive .left {
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+}
+
+.productive .left h1 {
+    font-size: 30px;
+    font-weight: 700;
+    color: hsl(243, 87%, 12%);
+}
+
+.productive .left p {
+    font-size: 16px;
+    font-weight: 400;
+    color: hsl(0, 0%, 75%);
+    width: 90%;
+    color: hsl(243, 87%, 12%);
+}
+
+.productive .left button {
+    border-bottom: 1px solid green;
+    color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    justify-self: flex-start;
+}
+
+.productive .right {
+    width: 40%;
+}
+
+.productive .right img {
+    height: 300px;
+}
+
+.desktop-hide {
+    display: none;
+}
