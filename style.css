@@ -284,6 +284,78 @@ main {
     outline: none;
 }
 
+.footer-cont {
+    background-color: hsl(243, 87%, 12%);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    background-color: hsl(243, 87%, 12%);
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+footer .body {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+}
+
+footer .location {
+    display: flex;
+    gap: .5em;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+footer .location p {
+    width: 300px;
+    color: white;
+    font-size: 14px;
+}
+
+footer .reachout {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+.phone {
+    display: flex;
+    gap: 1em;
+    align-items: center;
+    justify-content: flex-start;
+    color: white;
+    font-size: 14px;
+}
+
+.mail {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    justify-content: flex-start;
+    color: white;
+    gap: 1em;
+}
+
+footer ul {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+footer ul li {
+    list-style: none;
+}
+
 .desktop-hide {
     display: none;
 }
