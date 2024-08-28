@@ -95,6 +95,7 @@ nav ul li a {
     border: none;
     background-color: hsl(224, 93%, 58%);
     padding: 15px 50px;
+    color: white;
     border-radius: 5px;
 }
 
@@ -210,6 +211,77 @@ main {
     font-size: 12px;
     width: auto;
     color: hsl(0, 0%, 75%);
+}
+
+.cta-cont {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(238, 22%, 44%);
+    padding: 70px 0;
+    margin-top: 150px;
+}
+
+.cta {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cta {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.cta .left {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    width: 47%;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.cta h2 {
+    font-size: 30px;
+    font-weight: 700;
+    color:white
+}
+
+.cta p {
+    font-size: 14px;
+    font-weight: 400;
+    width: 100%;
+    color:  hsl(0, 6%, 85%);
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.cta input {
+    width: 90%;
+    padding: 10px 30px;
+    border-radius: 5px;
+    outline: none;
+    color: hsl(0, 0%, 75%);
+    margin-bottom: 10px;
+}
+
+.cta button {
+    border: none;
+    outline: none;
+    background-color: hsl(224, 93%, 58%);
+    padding: 15px 50px;
+    border-radius: 5px;
+    color: white;
+}
+
+.cta button:hover,
+.cta button:focus {
+    border: none;
+    outline: none;
 }
 
 .desktop-hide {
