@@ -116,6 +116,7 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    height: 580px;
 }
 
 .illustr {
@@ -149,16 +150,24 @@ main {
     color: hsl(0, 0%, 75%);
     width: 90%;
     color: hsl(243, 87%, 12%);
+    font-weight: 400;
 }
 
-.productive .left button {
-    border-bottom: 1px solid green;
+.productive .left a {
+    padding-bottom: 10px;
+    outline: none;
+    background: transparent;
+    border: none;
     color: green;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     width: auto;
     justify-self: flex-start;
+    gap: .5em;
+    border-bottom: 1px solid green;
+    width: 170px;
+    font-weight: 500;
 }
 
 .productive .right {
@@ -167,6 +176,40 @@ main {
 
 .productive .right img {
     height: 300px;
+}
+
+.productive .card {
+    background-color: white;
+    height: 250px;
+    width: 300px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    box-shadow: box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.productive .card img {
+    height: 30px;
+    border-radius: 50%;
+}
+
+.auth {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1em;
+}
+
+.auth p.name {
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.auth p.rol {
+    font-size: 12px;
+    width: auto;
+    color: hsl(0, 0%, 75%);
 }
 
 .desktop-hide {
